@@ -126,22 +126,6 @@
         left: -12%;
     }
 }
-@-webkit-keyframes moveclouds {
-    0% {
-        top: 500px;
-    }
-    100% {
-        top: -500px;
-    }
-}
-@keyframes moveclouds {
-    0% {
-        top: 500px;
-    }
-    100% {
-        top: -500px;
-    }
-}
 @-webkit-keyframes sideWays {
     0% {
         margin-left: 0px;
@@ -257,12 +241,24 @@
         background-color: #ff009e;
     }
     #bg2{
-        background-color: 	#ff819f;
+        background-color: #ff819f;
     }
     #bg3{
         background-color: #fea0ff;
     }
     #bg4{
+        background-color: #ffb2d7;
+    }
+    #bg5 {
+        background-color: #ff009e;
+    }
+    #bg6{
+        background-color: #ff819f;
+    }
+    #bg7{
+        background-color: #fea0ff;
+    }
+    #bg8{
         background-color: #ffb2d7;
     }
     .hide{
