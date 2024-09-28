@@ -126,6 +126,52 @@
         left: -12%;
     }
 }
+@-webkit-keyframes moveclouds {
+    0% {
+        top: 500px;
+    }
+    100% {
+        top: -500px;
+    }
+}
+@keyframes moveclouds {
+    0% {
+        top: 500px;
+    }
+    100% {
+        top: -500px;
+    }
+}
+@-webkit-keyframes sideWays {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 50px;
+    }
+}
+@keyframes sideWays {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 50px;
+    }
+}
+@-keyframes swayWays {
+    0% {
+        transform: rotate(12deg);
+        left: -0.3%;
+    }
+    33% {
+        transform: rotate(-2deg);
+        left: 0.7%;
+    }
+    100% {
+        transform: rotate(0deg);
+        left: -12%;
+    }
+}
 /* //  HEART CODE */
 .altheart {
     background: url(http://static.indigoimages.ca/2016/shop/113439_img25_twotoneheart.png) no-repeat center;
